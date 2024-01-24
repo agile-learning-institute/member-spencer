@@ -1,22 +1,22 @@
 # My Notes for Landing Page
 
 - NAV bar
-  - check font, colors, size, etc.
-  - flexblox for left (logo) & right (3 links)
+  - [ ] check font, colors, size, etc.
+  - [ ] flexblox for left (logo) & right (3 links)
 - Hero text
-  - flexbox for left (text and button) & right (image)
-  - fonts and colors
+  - [ ] flexbox for left (text and button) & right (image)
+  - [ ] fonts and colors
 - Some Random 4 boxes info
-  - fonts & colors
-  - flexbox for 4 across
-  - HTML tag called <figure> (for subtext)
+  - [ ] fonts & colors
+  - [ ] flexbox for 4 across
+  - [ ] HTML tag called <figure> (for subtext)
 - Thor Quote
-  - fonts & colors
-  - alignment
+  - [ ] fonts & colors
+  - [ ] alignment
 - Call to Action!
-  - blue background div
-  - flexbox for left (text) & right (button)
-  - fonts & colors
+  - [ ] blue background div
+  - [ ] flexbox for left (text) & right (button)
+  - [ ] fonts & colors
 - Copyright bottom
-  - fonts & colors
-  - alignment
+  - [ ] fonts & colors
+  - [ ] alignment
