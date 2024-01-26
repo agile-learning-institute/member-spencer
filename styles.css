@@ -1,8 +1,36 @@
+/* Reset some default styles and set a background color */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+nav {
+    margin-top: 20px;
+}
+
 .darkblue-background {
     background-color: #1F2937;
 }
 
 button {
     background-color: #3882F6;
-
 }
