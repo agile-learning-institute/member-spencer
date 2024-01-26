@@ -15,11 +15,13 @@ header {
     color: #F9FAF8;
     padding: 20px 0;
     text-align: center;
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
 header .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: extra-bold;
     color: #F9FAF8;
 }
 
@@ -27,10 +29,45 @@ nav {
     margin-top: 20px;
 }
 
-.darkblue-background {
-    background-color: #1F2937;
-}
-
 button {
     background-color: #3882F6;
+}
+
+.darkblue-background {
+    background-color: #1F2937; /* Background color for the dark blue section */
+    color: #F9FAF8; /* Text color */
+    padding: 10px 0; /* Padding for top and bottom */
+}
+
+.header-bar {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.flexcontainer {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.flexitem {
+    margin: 0; /* Reset margin to remove default spacing */
+    padding: 20px; /* Add some padding for spacing between items */
+}
+
+.left {
+    justify-content: flex-start; /* Align to the left */
+}
+
+.right {
+    justify-content: flex-end; /* Align to the right */
+}
+
+nav {
+    display: flex; /* Display the navigation links as flex items */
+}
+
+nav p {
+    margin: 0 10px; /* Add some spacing between the navigation links */
 }
