@@ -1,12 +1,12 @@
 /* Reset some default styles and set a background color */
 body, h1, h2, p {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 body {
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 /* Style the header */
@@ -16,7 +16,7 @@ body {
     padding: 20px 0;
     text-align: center;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 300;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,10 +27,20 @@ body {
     font-weight: 800;
 }
 
+.mediumbox {
+    max-width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mediumbox p {
+    padding: 0px;
+}
+
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -47,26 +57,34 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 400px; /* Adjust the height as needed */
+    height: 200px; /* Adjust the height as needed */
 }
 
 .flexitem {
-    margin: 0;
+    margin: 10px;
     padding: 20px;
 }
 
 .alignleft {
     text-align: left;
+    font-weight: 200;
+    padding-right: 20px 0;
 }
 
 .alignright {
-    text-align: right;
+    text-align: auto;
+    font-weight: 300;
 }
+
 
 .grey-box {
     background-color: #777777;
-    padding: 20px;
-    border: 1px solid #777777;
+    margin: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    padding-bottom: 20px;
+    border: 45px solid #777777;
     text-align: right;
 }
 
