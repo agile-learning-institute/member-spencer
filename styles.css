@@ -26,10 +26,6 @@ header .logo {
     color: #F9FAF8;
 }
 
-nav {
-    margin-top: 20px;
-}
-
 button {
     background-color: #3882F6;
     font-family: Roboto;
@@ -69,6 +65,7 @@ button {
 
 nav {
     display: flex; /* Display the navigation links as flex items */
+    margin-top: 20px;
 }
 
 nav p {
