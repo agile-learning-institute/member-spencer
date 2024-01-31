@@ -6,7 +6,7 @@ body, h1, h2, p {
 
 body {
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 /* Style the header */
@@ -20,6 +20,7 @@ header {
 }
 
 header .logo {
+    font-family: Roboto, Arial, sans-serif !important;
     font-size: 24px;
     font-weight: extra-bold;
     color: #F9FAF8;
@@ -31,6 +32,8 @@ nav {
 
 button {
     background-color: #3882F6;
+    font-family: Roboto;
+    color: #F9FAF8;
 }
 
 .darkblue-background {
