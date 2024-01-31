@@ -48,19 +48,34 @@ button {
     display: flex; /* Use flexbox */
     justify-content: space-between; /* Distribute items evenly horizontally */
     align-items: center; /* Center items vertically */
+    height: 100px;
 }
 
 .flexitem {
-    margin: 0; /* Reset margin to remove default spacing */
+    margin: 20px; /* Reset margin to remove default spacing */
     padding: 20px; /* Add some padding for spacing between items */
 }
 
-.left {
+.alignleft {
     justify-content: flex-start; /* Align to the left */
+    margin-left: auto;
 }
 
-.right {
+.alignright {
     justify-content: flex-end; /* Align to the right */
+}
+
+.grey-box {
+    background-color: rgb(100, 100, 100); /* Grey background color */
+    padding: 20px; /* Padding to create space around the content */
+    border: 1px solid rgb(100, 100, 100); /* Border for the grey box */
+    text-align: right; /* Align text content to the right within the box */
+}
+
+.image-placeholder {
+    font-size: 14px; /* Font size for the placeholder text */
+    color: #F9FAF8; /* Text color for the placeholder text */
+    margin: 0; /* Remove margin */
 }
 
 nav {
