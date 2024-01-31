@@ -29,8 +29,8 @@ body {
 
 .mediumbox {
     max-width: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .mediumbox p {
@@ -82,7 +82,8 @@ button {
     margin: 30px;
     margin-left: 20px;
     margin-bottom: 20px;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 20px;
     border: 45px solid #777777;
     text-align: right;
@@ -92,6 +93,7 @@ button {
     font-size: 18px;
     color: #F9FAF8;
     margin: 0;
+    width: max-content;
 }
 
 nav {
