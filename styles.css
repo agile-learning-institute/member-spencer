@@ -6,76 +6,74 @@ body, h1, h2, p {
 
 body {
     background-color: #f0f0f0;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 /* Style the header */
-header {
+.header-bar {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 20px 0;
     text-align: center;
-    font-size: 48px;
-    font-weight: extra-bold;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header .logo {
-    font-family: Roboto, Arial, sans-serif !important;
+.header-bar .logo {
     font-size: 24px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
+    font-weight: 800;
 }
 
 button {
     background-color: #3882F6;
-    font-family: Roboto;
     color: #F9FAF8;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
 }
 
 .darkblue-background {
-    background-color: #1F2937; /* Background color for the dark blue section */
-    color: #F9FAF8; /* Text color */
-    padding: 10px 0; /* Padding for top and bottom */
-}
-
-.header-bar {
-    display: flex; /* Use flexbox */
-    justify-content: space-between; /* Distribute items evenly horizontally */
-    align-items: center; /* Center items vertically */
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0;
 }
 
 .flexcontainer {
-    display: flex; /* Use flexbox */
-    justify-content: space-between; /* Distribute items evenly horizontally */
-    align-items: center; /* Center items vertically */
-    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px; /* Adjust the height as needed */
 }
 
 .flexitem {
-    margin: 20px; /* Reset margin to remove default spacing */
-    padding: 20px; /* Add some padding for spacing between items */
+    margin: 0;
+    padding: 20px;
 }
 
 .alignleft {
-    justify-content: flex-start; /* Align to the left */
-    margin-left: auto;
+    text-align: left;
 }
 
 .alignright {
-    justify-content: flex-end; /* Align to the right */
+    text-align: right;
 }
 
 .grey-box {
-    background-color: rgb(100, 100, 100); /* Grey background color */
-    padding: 20px; /* Padding to create space around the content */
-    border: 1px solid rgb(100, 100, 100); /* Border for the grey box */
-    text-align: right; /* Align text content to the right within the box */
+    background-color: #777777;
+    padding: 20px;
+    border: 1px solid #777777;
+    text-align: right;
 }
 
 .image-placeholder {
-    font-size: 14px; /* Font size for the placeholder text */
-    color: #F9FAF8; /* Text color for the placeholder text */
-    margin: 0; /* Remove margin */
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0;
 }
 
 nav {
