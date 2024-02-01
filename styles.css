@@ -94,6 +94,7 @@ button {
     padding-right: 40px;
     padding-bottom: 20px;
     border: 45px solid #777777;
+    border-left-width: 80px;
     text-align: right;
 }
 
