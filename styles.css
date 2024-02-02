@@ -6,6 +6,7 @@
 @font-face {
     font-family: Roboto;
     src: url(/Users/spencesmacstuff/source/member-spencer/Custom-Fonts/Roboto-Black.ttf);
+    src: url(/Users/spencesmacstuff/source/member-spencer/Custom-Fonts/Roboto-LightItalic.ttf);
 }
 
 body {
@@ -50,7 +51,7 @@ nav p {
     padding: 0px;
 }
 
-button {
+.no-border {
     background-color: #3882F6;
     color: #F9FAF8;
     font-family: Roboto, Arial, sans-serif;
@@ -85,7 +86,7 @@ button {
 }
 
 .alignright {
-    text-align: auto;
+    text-align: right;
     font-weight: 300;
 }
 
@@ -169,7 +170,7 @@ p {
 }
 
 .quote {
-    font-style: light italic;
+    font-style: italic;
     align-content: center;
     font-weight: 300;
     margin-left: 100px;
@@ -180,6 +181,35 @@ p {
     text-align: right;
     font-weight: bold;
     padding-right: 130px;
+}
+
+.blue-background {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    width: 900px;
+    height: 180px;
+}
+
+.action {
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.clicking {
+    font-weight: lighter;
+    font-size: small;
+}
+
+.with-border {
+    background-color: transparent;
+    color: #E5E7EB;
+    border-style: 1px solid #fff;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .copyright {
