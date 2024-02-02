@@ -4,9 +4,9 @@
     padding: 1;
 }*/
 @font-face {
-    font-family: Roboto;
-    src: url ./Custom-Fonts/Roboto-Black.ttf;
-    src: url ./Custom-Fonts/Roboto-LightItalic.ttf;
+    font-family: 'Roboto';
+    src: url('./Custom-Fonts/Roboto-Black.ttf') format('truetype'), /* Specify the correct format and path */
+         url('./Custom-Fonts/Roboto-LightItalic.ttf') format('truetype'); /* Specify the correct format and path */
 }
 
 body {
@@ -202,14 +202,15 @@ p {
 }
 
 .with-border {
-    background-color: transparent;
+    background-color: #3882F6;
     color: #E5E7EB;
-    border-style: 1px solid #fff;
+    border-style: 5px solid #fff;
     border-color: #F9FAF8;
     border-radius: 10px;
     border-width: 2px;
     padding: 10px 20px;
     cursor: pointer;
+    margin: 10px;
 }
 
 .copyright {
