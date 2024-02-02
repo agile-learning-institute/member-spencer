@@ -169,13 +169,18 @@ p {
 }
 
 .quote {
-    font-style: italic;
+    font-style: light italic;
     align-content: center;
     font-weight: 300;
     margin-left: 100px;
     margin-right: 100px;
 }
 
+.thor {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 130px;
+}
 
 .copyright {
     text-align: center;
