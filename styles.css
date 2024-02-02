@@ -28,7 +28,7 @@ body {
 }
 
 nav {
-    display: flex; /* Display the navigation links as flex items */
+    display: flex;
     margin-top: 20px;
 }
 
@@ -59,14 +59,14 @@ button {
 .darkblue-background {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px 0;
+    padding: 15px;
 }
 
 .flexcontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 200px; /* Adjust the height as needed */
+    height: 200px;
 }
 
 .flexitem {
@@ -108,8 +108,10 @@ button {
 .white-background {
     background-color: #fff;
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 h2 {
@@ -119,7 +121,6 @@ h2 {
 
 .blue-squares {
     display: flex;
-    flex-wrap: wrap; /* Allow squares to wrap to the next line */
     justify-content: space-between;
     margin-top: 20px;
     margin: auto;
@@ -127,28 +128,28 @@ h2 {
 }
 
 .square {
-    border: 3px solid #3882F6; /* Blue border */
+    border: 3px solid #3882F6;
     color: #fff;
-    width: 55px; /* Adjust the width of squares and margin */
+    width: 55px;
     padding: 40px;
-    border-radius: 15px; /* Adjust border-radius for rounded corners */
+    border-radius: 15px;
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0 10px; /* Adjust the margin to make them closer together and separate from text */
+    margin: 0 10px;
 }
 
 .box-content {
-    background-color: #fff; /* White background inside the boxes */
+    background-color: #fff; 
     border-radius: 10px;
     padding: 10px;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 .text-content {
     text-align: center;
-    margin-top: 10px; /* Add space between box-content and text-content */
+    margin-top: 10px; 
     color: #1F2937;
     width: 150px;
 }
@@ -156,6 +157,21 @@ h2 {
 p {
     margin: 0;
 }
+
+.grey-background {
+    background-color: #E5E7EB;
+    padding: 50px;
+
+}
+
+.quote {
+    font-style: italic;
+    align-content: center;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 
 .copyright {
     text-align: center;
