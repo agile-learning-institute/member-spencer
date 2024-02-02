@@ -5,8 +5,8 @@
 }*/
 @font-face {
     font-family: Roboto;
-    src: url(/Users/spencesmacstuff/source/member-spencer/Custom-Fonts/Roboto-Black.ttf);
-    src: url(/Users/spencesmacstuff/source/member-spencer/Custom-Fonts/Roboto-LightItalic.ttf);
+    src: url ./Custom-Fonts/Roboto-Black.ttf;
+    src: url ./Custom-Fonts/Roboto-LightItalic.ttf;
 }
 
 body {
